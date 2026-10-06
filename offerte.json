@@ -1,6 +1,6 @@
 {
- "numero": 3,
- "data": "2026-10-05",
+ "numero": 4,
+ "data": "2026-10-06",
  "offerte": [
   {
    "id": "AI0A0B2085",
@@ -54,6 +54,37 @@
    "costi_eventuali_json": "[]",
    "verificata": 1,
    "notes": "Offerta per clienti domestici con fornitura di gas naturale. Prezzo variabile: PSVDA(m) (PSV Day Ahead Mid, media mensile, convertito in €/Smc con coefficiente 0,0107) + 0,15 €/Smc. Corrispettivo annuo 144 €/anno. Adesioni valide dal 09/09/2026 al 08/10/2026. Durata contratto indeterminata, fatturazione bimestrale, nessuna garanzia richiesta. Pagina 10 riporta condizioni diverse (CMEM,m + 0,033257 €/Smc, costo fisso 55,39 €/anno, sconto 5,40 €/PdR/anno per bolletta digitale e domiciliazione), apparentemente riferite a un'altra offerta o al servizio di tutela per clienti vulnerabili: non utilizzate nella formula.",
+   "per_fascia": 0,
+   "fixed_price_f1": null,
+   "fixed_price_f2": null,
+   "fixed_price_f3": null,
+   "spread_f1": null,
+   "spread_f2": null,
+   "spread_f3": null,
+   "valid_from": null,
+   "extra_kwh": 0.0
+  },
+  {
+   "id": "AI234C1DCA",
+   "nome": "Iren Tua Azienda Gas Fisso",
+   "fornitore": "Iren Mercato S.p.A.",
+   "customer_type": "Business",
+   "commodity": "Gas",
+   "price_type": "fisso",
+   "fixed_price": 0.849,
+   "index_name": "NONE",
+   "multiplier": 1.0,
+   "spread": null,
+   "annual_fixed_fee": 180.0,
+   "annual_bonus": 0.0,
+   "duration_months": 0,
+   "min_consumption": null,
+   "max_consumption": 20000.0,
+   "valid_until": "2026-10-27",
+   "active": 1,
+   "costi_eventuali_json": "[]",
+   "verificata": 1,
+   "notes": "Offerta per clienti non domestici con consumi fino a 20.000 Smc/anno. Contratto a durata indeterminata; prezzo fisso 0,849 €/Smc valido da inizio fornitura fino al 31/12/2027. Quota fissa 15,00 €/mese per punto di prelievo (COM.G fissa). Prezzo adeguato in base a PCS e coefficiente C locali. La Scheda Sintetica riporta un costo per consumi di 0,864 €/Smc, che può includere ulteriori corrispettivi non dettagliati nelle condizioni economiche (circa 0,015 €/Smc di differenza rispetto al prezzo materia). Fatturazione mensile, pagamento a 20 giorni. Trasporto e oneri di sistema regolati ARERA esclusi.",
    "per_fascia": 0,
    "fixed_price_f1": null,
    "fixed_price_f2": null,
@@ -125,6 +156,37 @@
    "spread_f3": 0.0165,
    "valid_from": null,
    "extra_kwh": 0.0
+  },
+  {
+   "id": "AI4CA972DE",
+   "nome": "Iren Tua Azienda Luce Fisso",
+   "fornitore": "Iren Mercato S.p.A.",
+   "customer_type": "Business",
+   "commodity": "Luce",
+   "price_type": "fisso",
+   "fixed_price": 0.18425,
+   "index_name": "NONE",
+   "multiplier": 1.0,
+   "spread": null,
+   "annual_fixed_fee": 180.0,
+   "annual_bonus": 0.0,
+   "duration_months": 0,
+   "min_consumption": null,
+   "max_consumption": 100000.0,
+   "valid_until": "2026-10-17",
+   "active": 1,
+   "costi_eventuali_json": "[]",
+   "verificata": 1,
+   "notes": "Offerta per clienti non domestici in Bassa Tensione con consumi fino a 100.000 kWh/anno. Prezzi energia (al lordo delle perdite di rete) fissi da inizio fornitura fino al 31/12/2027; per POD monorari F0 = 0.18425 €/kWh. Contratto a durata indeterminata, fatturazione mensile. Oneri di dispacciamento attualmente 0.04055 €/kWh (aggiornabili). Quota fissa COM.E 180 €/POD/anno. Adesioni dal 09/09/2026 al 17/09/2026. Codice offerta 000208ESFFL18XX000IEAUSTAF260917.",
+   "per_fascia": 1,
+   "fixed_price_f1": 0.18623,
+   "fixed_price_f2": 0.18799,
+   "fixed_price_f3": 0.18051,
+   "spread_f1": null,
+   "spread_f2": null,
+   "spread_f3": null,
+   "valid_from": null,
+   "extra_kwh": 0.04055
   },
   {
    "id": "AI50E6DD9B",
@@ -437,5 +499,5 @@
    "extra_kwh": 0.0
   }
  ],
- "firma": "bd43a857740bc7a8715cfab86887bf4641b6464da229e2eb25e6c54441a096d8ddfd1d5532bcc12a58adcd7757997e1906597e05631eaca825772dc545dec1a96bbc0af634af40f6f47c35a03f256b4d57f5feabd55a1bf9634b03d09cc3b5624923be2487fda58c35f541862c94ef05322e0e3351926d53a95631d4afa974a717c734f25bfba7c90747a4688a8e03129ce2afb2bd275bf0ec181d050a58099b77c6b673bc53c242fe10ddad44dceded2381531bbe839bf52671299b1bdd946acd1d03d38d05f72e1a2da20a4ab17012a1d3f56912ea1503d4b1fd56e8a15f970e716c47d980027df13468cb121061a7ae9a6de92fb49293780199a375abf8bf851fc7f6c5b479ebf261acc29807b129ae4b8b426c46af2f910afde336203fa4bbe50c45dfbf1b8d6720a60be52e0110b55b992a4c77a9945769db9950c9b655b6ae344db21314bdf71d7d379c864bc99fdd8c4e938b1e5b00a8414ddaa9e709937b0bc1d25331bedbe62f909cb3c2e660051ac9ca65b00028015b3eb5cfc282"
+ "firma": "c80ce64a615507cc18c01dbd8a7ea2fd1805caf7aecc6a0a4f30d51ed36cc6f6013e22c19daa1c5c326a9db0dc9073cab99fb2b3ddbe0ecd83f5c115dee73c05fe87f1b872be477620d0772432e0e3aae530d233bc412918aa26e329e9c15948d32fa99737e7b5e98185f8774dec024a4fdfb26affb4d64e33ff83d7363ec6c75a2f87b688a3e7d4ab8258d3fd45e3bf1415987d3652f38e31daa9f23f10d4d36059af448e671ebbb8a5f7c321539f0bd9f987abc3e834cecb3a62d99474c348f47abb0b9ac21859d0bfe29944023814569f91edc070ca0c478ce86ad998dd66b7c5e0e8b5012307c93d01aa533236e87ebb4bd089b62e6040553760a8bae2b141fc2a04d050d908ab7deb63b72fc13795869da1a2b7f2d1c00a96ae4bb1b1dce9a4fff2a1e83babbd6a98c84df57396af24af9a5c2743b348e74f0c238f1fc0ec4ce63b1b507a818d333712b98e80f2e794c67ef7bdd4102346a6bb0ec89a0ffc40342d37a840224f7e1c2885372996d6013e1ae8c3018283e2089dafa18822"
 }
